@@ -164,6 +164,7 @@ img {
 }
 .section-three-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .title-team {
   font-size: 36px;
@@ -175,9 +176,27 @@ img {
 }
 .our-team-list {
   list-style-type: none;
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
 }
 .team-member {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-member-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 32px;
 }
 .section-three-team .team-names {
   font-size: 20px;
