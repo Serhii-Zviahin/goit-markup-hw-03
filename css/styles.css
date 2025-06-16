@@ -66,7 +66,6 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .link-logo {
   margin-right: 76px;
@@ -74,6 +73,7 @@ img {
 .main-nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .contact-info-list {
   font-style: normal;
@@ -145,10 +145,11 @@ img {
   height: 1px;
   padding: 0;
   margin: -1px;
-  overflow: hidden;
   border: 0;
-  clip: rect(0 0 0 0);
   white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  overflow: hidden;
 }
 .features {
   list-style-type: none;
@@ -228,8 +229,6 @@ img {
 .projects-item {
   background-color: #e7e9fc;
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 .projects-item img {
   width: 100%;
@@ -238,6 +237,8 @@ img {
   display: flex;
   flex-direction: column;
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .title-portfolio {
   font-size: 36px;
