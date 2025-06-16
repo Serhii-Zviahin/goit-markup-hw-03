@@ -53,6 +53,7 @@ img {
 .main-nav .link {
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .main-nav .link:hover,
 .main-nav .link:focus {
@@ -73,7 +74,6 @@ img {
 .main-nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .contact-info-list {
   font-style: normal;
@@ -272,7 +272,7 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer .footer-link {
+.footer-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
