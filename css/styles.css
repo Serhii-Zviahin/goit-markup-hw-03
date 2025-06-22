@@ -54,6 +54,7 @@ img {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
+  display: inline-block;
 }
 .main-nav .link:hover,
 .main-nav .link:focus {
@@ -96,6 +97,7 @@ img {
   text-decoration: none;
   line-height: 1.5;
 }
+/* Перша секція start */
 
 .section-one {
   background-color: #2e2f42;
@@ -136,6 +138,8 @@ img {
   text-decoration: none;
   background-color: #404bbf;
 }
+/* Перша секція end */
+/* Друга секція start */
 .section-two {
   padding: 120px 0;
 }
@@ -154,7 +158,6 @@ img {
 .features {
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 .features-item {
@@ -174,6 +177,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* Друга секція end */
+/* Третя секція start*/
 .section-three-team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -195,19 +200,15 @@ img {
 .team-member {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   width: 100%;
 }
+.team-member img {
+  width: 100%;
+}
 .team-member-text {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   padding: 32px 0;
 }
 .section-three-team .team-names {
@@ -217,25 +218,26 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 .team-specialization {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
+/* Третя секція end */
+/* Четверта секція start */
+
 .section-four-portfolio {
   padding: 120px 0;
 }
 .projects-item {
-  background-color: #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
 .projects-item img {
   width: 100%;
 }
 .projects-text {
-  display: flex;
-  flex-direction: column;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -268,6 +270,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* Четверта секція end */
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
